@@ -1,7 +1,7 @@
-module.exports = function(elventyConfig){
-    return{
-        dir:{
-            input :"src",
-        }
-    };
+module.exports = function (elventyConfig) {
+  return {
+    dir: {
+      input: 'src'
+    }
+  };
 };
