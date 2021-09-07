@@ -1,8 +1,6 @@
 ---
 title: Blog
-layout: base.njk
+layout: blog.njk
 ---
 
 ## All posts
-
-{% include "../components/postlist.njk" %}
