@@ -1,10 +1,13 @@
-module.exports = function (elventyConfig) {
-  elventyConfig.addPassthroughCopy('src/css');
-  elventyConfig.addWatchTarget('src/css');
+module.exports = function (eleventyConfig) {
+  // eleventyConfig.addPassthroughCopy("src/css");
+  // eleventyConfig.addWatchTarget("src/css");
+
+  eleventyConfig.addWatchTarget("src/scss");
 
   return {
-    dir: {
-      input: 'src'
-    }
+      dir: {
+          input: 'src'
+      },
+      passthroughFileCopy: true
   };
 };
