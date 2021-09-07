@@ -1,10 +1,8 @@
 ---
-
 title: hallå världen
-
 ---
 
-Detta är min första blogpost. 
+Detta är min första blogpost.
 Det är väldigt bra.
 
 Jag gillar att skirva.
