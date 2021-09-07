@@ -4,4 +4,6 @@ layout: base.njk
 title: väldigt mysigt
 ---
 
-# nu med sås
+# Welcome to my learning blog
+
+This is very tech
