@@ -1,18 +1,13 @@
-# 11tyBlog
-
-
-
-## code standard
-
-.prettierrc
-``` json
 {
     "semi": true,
-    "tabWidth": 4,
+ 
+    "tabWidth": 2,
+ 
     "printWidth": 80,
+ 
     "singleQuote": true,
+ 
     "trailingComma": "none",
+ 
     "jsxBracketSameLine": true
 }
-
-``` 
