@@ -1,9 +1,14 @@
 ---
 layout: base.njk
+title: Git repos
 ---
 
-<ul>
+{{content | safe}}
+
+<ul class="list">
     {% for item in gitrepos %}    
-        {{item.html_url}}
+         <li>
+            <a href="{{ item.html_url }}">{{ item.name}}</a>
+        </li>
     {% endfor %}
 </ul>
