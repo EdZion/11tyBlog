@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 
-title: väldigt mysigt
+title: Väldigt mysigt
 ---
 
 # Welcome to my learning blog
