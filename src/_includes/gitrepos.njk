@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+
+<ul>
+    {% for item in gitrepos %}    
+        {{item.html_url}}
+    {% endfor %}
+</ul>

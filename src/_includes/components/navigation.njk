@@ -1,11 +1,13 @@
 {% if navigation.items %}
-    <nav class="container">
-        <ul>
-            {% for item in navigation.items %}
-                <li>
-                    <a href="{{ item.url }}">{{ item.text }}</a>
-                </li>
-            {% endfor %}
-        </ul>
+    <nav>
+        <div >
+            <ul class="navbar">
+                {% for item in navigation.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
     </nav>
 {% endif %}
