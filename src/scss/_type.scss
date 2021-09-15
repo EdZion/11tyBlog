@@ -1,17 +1,17 @@
 @import "../../node_modules/modularscale-sass/stylesheets/modularscale";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 
 $modularscale: (
     base: 16px,
     ratio: $fourth,
 );
 
-$font-family-sans-serif:'Roboto', sans-serif;
+$font-family: 'Maven Pro', sans-serif;
 
 body {
     line-height: 1.5;
-    font-family: $font-family-sans-serif;
+    font-family: $font-family;
     font-weight: 400;
 }
 
