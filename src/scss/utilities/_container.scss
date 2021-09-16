@@ -1,19 +1,8 @@
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2%;
-    padding-right: 2%;
-
-    @media (min-width: 576px) {
-        max-width: 80%;
-    }
-    @media (min-width: 768px) {
-        max-width: 70%;
-    }
-    @media (min-width: 992px) {
-        max-width: 60%;
-    }
-    @media (min-width: 1400px) {
-        max-width: 50%;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12%;
+  background-color: #324a5f;
+  color: white;
 }
