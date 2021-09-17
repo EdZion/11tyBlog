@@ -11,7 +11,9 @@
         {% include "components/navigation.njk" %}
         <main>
             <div class="container">
-                {{ content | safe }}
+                <div class="blogtext">
+                    {{ content | safe }}
+                </div>
             </div>
             {% include "components/frontlist.njk" %}
         </main>

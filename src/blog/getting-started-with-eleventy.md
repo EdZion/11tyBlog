@@ -2,12 +2,15 @@
 title: Getting started with Eleventy
 ---
 
+## Getting started with Eleventy
+
 Today I've installed and tried [eleventy](https://www.11ty.dev/) for the first time. It's a great tool for building static websites.
 
 ## Get started
 
 Open wsl and install node and npm.
-```bash	
+
+```bash
 
 sudo apt install curl dirmngr apt-transport-https lsb-release ca-certificates
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
