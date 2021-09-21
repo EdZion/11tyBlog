@@ -4,10 +4,13 @@
   list-style: none;
   padding: 1rem;
   background-color: #324a5f;
-  justify-content: space-evenly;
+  justify-content: end;
   margin: 0;
 }
 
+.navbar li {
+  margin-right: 5rem;
+}
 .navbar a {
   color: white;
 }
