@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "text": "Blog",
+      "url": "/blog"
+    },
+    {
       "text": "Git Repos",
       "url": "/gitrepos"
     }

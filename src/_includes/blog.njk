@@ -1,6 +1,17 @@
 ---
-layout : base.njk
+layout : blogbase.njk
 title : All posts
 --- 
 
 {{content | safe}}
+
+<ul class="bloglist">
+    {% for post in collections.post %}
+        <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            {% if post.data.excerpt %}
+                <p>{{ post.data.excerpt }}</p>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
